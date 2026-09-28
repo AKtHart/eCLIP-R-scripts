@@ -8,7 +8,7 @@ Analyzes the enrichment of each possible 8-mer in the significantly enriched pea
 "Search overlapping 8mers"
 Analyzes whether a specific 8mer overlaps with the next according to its genomic location to assemble longer sequences bound by the target protein. Uses the .csv file produced by the previous script and the bed file of the eCLIP analysis as input. Only enriched sequences (FDR < 0.05 & Odds_ratio > 1.5) are used. 
 
-_Scripts used for datasets originating from: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE1031_65
+_Scripts used for datasets originating from: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE1031_65_
 
 Same as above scripts but with _MCF7 extension. The only difference is the different handling of statistics as this dataset reports its peak significant in -log10. 
 
